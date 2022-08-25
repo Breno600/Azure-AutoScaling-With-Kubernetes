@@ -3,9 +3,9 @@ kind: Secret
 metadata:
   name: pipeline-auth
 data:
-  AZP_URL: aHR0cHM6Ly9kZXYuYXp1cmUuY29tL2hvdXNzZW1kZWxsYWk= # https://dev.azure.com/houssemdellai
-  AZP_POOL: bGludXgtY29udGFpbmVycy1ha3M= # linux-containers-aks
-  AZP_TOKEN: <YOUR_PAT_TOKEN>
+  AZP_URL: "aHR0cHM6Ly9kZXYuYXp1cmUuY29tL2hvdXNzZW1kZWxsYWk=" # https://dev.azure.com/houssemdellai
+  AZP_POOL: "bGludXgtY29udGFpbmVycy1ha3M=" # linux-containers-aks
+  AZP_TOKEN: "bGludXgtY29udGFpbmVycy1ha3M=" #<YOUR_PAT_TOKEN>
 ---
 apiVersion: apps/v1
 kind: Deployment
